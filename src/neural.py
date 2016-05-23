@@ -15,7 +15,7 @@ SIDE_SIZE = 10
 N_ELEMENTS = 37 #[0-9][A-Z]ESP
 
 def getNeuralNetFromUser():
-	neural_net_file = "trained_nets/general_net_V2" #JSON in a text file used to load the neural network
+	neural_net_file = "resources/neural_net" #JSON in a text file used to load the neural network
 	net = None
 	print "Load Neural Network from file?"
 	value = getInput("-1 for training a new network, other key to load a trained one: ")
