@@ -118,6 +118,6 @@ for img in vImages:
 		showImage(car.carImg)
 	showImage(img.img)
 
-f.close()
+#f.close()
 
 exit(0)
